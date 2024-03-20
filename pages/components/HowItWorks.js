@@ -8,19 +8,20 @@ const HowItWorks = () => {
       <Grid>
         <Typography
           display="flex"
-          variant="h2"
+          variant="h5"
+          fontWeight= "bold"
           justifyContent="center"
           color="white"
-          fontWeight={400}
           sx={{
             background: "#052A42",
             paddingTop: "2rem",
             paddingBottom: "2rem",
           }}
         >
-          How It Works
+          How Adventura Works?
         </Typography>
         <img
+          className="homepage--images--topic"
           src={"food-combo.png"}
           alt="activities"
           width={300}

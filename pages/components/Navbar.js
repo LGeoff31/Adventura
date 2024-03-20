@@ -7,7 +7,7 @@ const Navbar = () => {
       <img
         src="/adventura.png"
         alt="logo"
-        height={120}
+        height={100}
         style={{ marginLeft: "1rem" }}
       />
     </Grid>
