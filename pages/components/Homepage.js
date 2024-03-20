@@ -1,9 +1,8 @@
 import React from "react";
 import { Stack, Typography, Button, TextField } from "@mui/material";
-
+import { useNavigate } from "react-router-dom";
 
 const Homepage = () => {
-  
   return (
     <Stack
       sx={{
@@ -14,20 +13,19 @@ const Homepage = () => {
     >
       <img
         className="homepage-img"
-        src="adventura.png"
+        src="main.png"
         alt="group"
         width={200}
         height={400}
-        style={{ marginTop: "-7rem", margin: "0 auto" }}
+        style={{ marginTop: "-6rem", margin: "0 auto" }}
       />
       <Typography
         display="flex"
         justifyContent="center"
-        marginTop="0rem"
+        marginTop="-5rem"
         marginBottom="2rem"
-        variant="h5"
+        variant="h6"
         color="white"
-        fontWeight="bold"
         className="Sub-title-homepage"
       >
         Ready To start?
@@ -36,10 +34,10 @@ const Homepage = () => {
         variant="contained"
         sx={{
           borderRadius: "2rem",
-          paddingRight: "2.5rem",
-          paddingLeft: "2.5rem",
+          paddingRight: "2.3rem",
+          paddingLeft: "2.3rem",
           textTransform: "none",
-          height: "4rem",
+          height: "3rem",
           margin: "0 auto",
           fontSize: "1rem",
           marginBottom: "5.5rem"
@@ -52,9 +50,8 @@ const Homepage = () => {
         justifyContent="center"
         marginTop="5rem"
         marginBottom="2rem"
-        variant="h5"
+        variant="h6"
         color="white"
-        fontWeight="bold"
       >
         Joining an Existing Room?
       </Typography>
@@ -65,8 +62,8 @@ const Homepage = () => {
           borderRadius: "2rem",
           margin: "0 auto",
           marginBottom: "2rem",
-          height: "3.9rem",
-          width: "11.1rem",
+          height: "3em",
+          width: "10.8rem",
           background: "rgba(255, 253, 208)",
           border: "none",
         }}
@@ -74,9 +71,9 @@ const Homepage = () => {
           style: {
             textTransform: "uppercase",
             color: "darkblue",
-            fontSize: "1rem",
+            fontSize: "0.9rem",
             textAlign: "center",
-            marginTop: "0.3rem",
+            marginTop: "-0.1rem",
           },
         }}
       />
@@ -85,10 +82,10 @@ const Homepage = () => {
         variant="contained"
         sx={{
           borderRadius: "2rem",
-          paddingLeft: "2.5rem",
-          paddingRight: "2.5rem",
+          paddingLeft: "2.3rem",
+          paddingRight: "2.3rem",
           textTransform: "none",
-          height: "4rem",
+          height: "3rem",
           margin: "0 auto",
           fontSize: "1rem",
         }}

@@ -1,7 +1,7 @@
 /*styling for homepage */
 .homepage-img{
-    height: 500px;
-    width: 650px;
+    height: 600px;
+    width: 700px;
 }
 
 .homepage--images--topic{
@@ -9,6 +9,10 @@
     height: 200px;
 }
 
+.Aboutus-title{
+    color: white;
+    text-align: right;
+}
 
 
 
