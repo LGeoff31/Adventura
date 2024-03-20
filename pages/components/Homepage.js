@@ -11,7 +11,8 @@ const Homepage = () => {
       }}
     >
       <img
-        src="Group.png"
+        className="homepage-img"
+        src="adventura_white.jpg"
         alt="group"
         width={400}
         height={350}
@@ -22,22 +23,25 @@ const Homepage = () => {
         justifyContent="center"
         marginTop="3rem"
         marginBottom="2rem"
-        variant="h4"
+        variant="h5"
         color="white"
         fontWeight="bold"
+        className="Sub-title-homepage"
       >
         Ready To start?
       </Typography>
       <Button
+        className="homepage-first-button"
         variant="contained"
         sx={{
           borderRadius: "2rem",
-          paddingLeft: "4rem",
-          paddingRight: "4rem",
+          paddingRight: "2.5rem",
+          paddingLeft: "2.5rem",
           textTransform: "none",
           height: "4rem",
           margin: "0 auto",
-          fontSize: "1.25rem",
+          fontSize: "1rem",
+          marginBottom: "5.5rem"
         }}
       >
         Create a Room
@@ -47,8 +51,9 @@ const Homepage = () => {
         justifyContent="center"
         marginTop="5rem"
         marginBottom="2rem"
-        variant="h4"
+        variant="h5"
         color="white"
+        fontWeight="bold"
       >
         Joining an Existing Room?
       </Typography>
