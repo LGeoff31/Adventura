@@ -1,23 +1,14 @@
 import React from "react";
-import { Typography, Grid } from "@mui/material";
 
-const Navbar = () => {
+function Navbar(){
   return (
-    <>
-      
-      <Grid sx={{ background: "#00316e" }}>
-    
-        <img
-          src="/adventura.png"
-          alt="logo"
-          height={100}
-          style={{ marginLeft: "1rem", 
-          }}
-        />
-        
-      </Grid>
-      
-    </>
+    <div className="navbar-contain">
+      <img className = "navbar--image" src="/Adventura.png"/>
+      <p className="navbar--text-fake">About Us About Us About Us About Us
+       About Us About Us About Us About Us About Us About Us About 
+       Us About Us About Us About Us About Us About Us About Us About Us About</p>
+      <p className="navbar--text">About</p>
+    </div>
   );
 };
 
